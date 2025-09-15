@@ -62,4 +62,4 @@ jobs:
         env:
           SHUTTLE_API_KEY: ${{ secrets.SHUTTLE_API_KEY }}
         run: |
-          cargo shuttle deploy --shanjiang66 shuttle-app
+          cargo shuttle deploy --name shuttle-app
